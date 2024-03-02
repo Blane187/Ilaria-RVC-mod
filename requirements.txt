@@ -9,6 +9,7 @@ httpx==0.23.0
 faiss-gpu
 fairseq
 gradio==3.34.0
+ffmpeg
 ffmpeg-python
 praat-parselmouth
 pyworld
@@ -21,3 +22,9 @@ gdown @ git+https://github.com/IAHispano/gdown.git
 onnxruntime
 pyngrok==4.1.12
 torch
+tensorflow-gpu==2.4.0
+torch==1.7.1+cu110
+torchvision==0.8.2+cu110
+torchaudio==0.7.2
+# cudatoolkit==11.0 
+cupy-cuda110==8.0.0
