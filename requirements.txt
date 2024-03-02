@@ -13,6 +13,8 @@ requests==2.31.0
 tqdm
 wget
 numba==0.56.4
+mega
+
 
 # Audio processing
 faiss-cpu==1.7.3
