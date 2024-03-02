@@ -1481,7 +1481,7 @@ def zip_downloader(model):
     else:
         return f'./weights/{model}.pth', "Could not find Index file."
 
-with gr.Blocks(theme=gr.themes.Default(theme='Hev832/EasyAndCool'), title="Ilaria RVC mods") as app:
+with gr.Blocks(theme="Hev832/EasyAndCool", title="Ilaria RVC mods") as app:
     with gr.Tabs():
         with gr.TabItem("Inference"):
             gr.HTML("<h1>  Ilaria RVC colab mods   </h1>")     
@@ -1607,7 +1607,7 @@ with gr.Blocks(theme=gr.themes.Default(theme='Hev832/EasyAndCool'), title="Ilari
                     with gr.Accordion("Advanced Options", open=False):
                         f0method0 = gr.Radio(
                             label="Optional: Change the Pitch Extraction Algorithm. Extraction methods are sorted from 'worst quality' to 'best quality'. If you don't know what you're doing, leave rmvpe.",
-                            choices=["crepe-tiny", "mangio-crepe-tiny", "crepe", "mangio-crepe", "rmvpe"], # Fork Feature. Add Crepe-Tiny
+                            choices=["crepe-tiny", "mangio-crepe-tiny", "crepe", "mangio-crepe", "rmvpe", "rmvpe+"], # Fork Feature. Add Crepe-Tiny
                             value="rmvpe",
                             interactive=True,
                         )
@@ -1857,7 +1857,7 @@ with gr.Blocks(theme=gr.themes.Default(theme='Hev832/EasyAndCool'), title="Ilari
             with gr.Row():
                 gr.Markdown(
                 """
-                Made with 💖 by Ilaria | Support her on [Ko-Fi](https://ko-fi.com/ilariaowo)
+                Made with ❤ by Ilaria and Blane | Support Ilaria on [Ko-Fi](https://ko-fi.com/ilariaowo)
                 """
                 )
 
