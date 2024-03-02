@@ -13,7 +13,7 @@ requests==2.31.0
 tqdm
 wget
 numba==0.56.4
-mega
+mega.py
 
 
 # Audio processing
