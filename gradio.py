@@ -74,7 +74,7 @@ def download_models():
 
 download_models()
 
-print("\n-------------------------------\nRVC v2 Easy GUI (Local Edition)\n-------------------------------\n")
+print("\n-------------------------------\nRVC v2 Easy GUI (colab Edition)\n-------------------------------\n")
 
 def formant_apply(qfrency, tmbre):
     Quefrency = qfrency
@@ -1858,7 +1858,7 @@ with gr.Blocks(theme="Hev832/EasyAndCool", title="blane RVC♻️") as app:
             with gr.Row():
                 gr.Markdown(
                 """
-                Made with 💖 by Ilaria | Support her on [Ko-Fi](https://ko-fi.com/ilariaowo)
+                Made with 💖 by Ilaria and Blane187 
                 """
                 )
 
@@ -2109,5 +2109,5 @@ with gr.Blocks(theme="Hev832/EasyAndCool", title="blane RVC♻️") as app:
                 "-------------------------------\n"
             )
                 
-    app.queue(concurrency_count=511, max_size=1022).launch(share=False, quiet=False)
+    app.queue(concurrency_count=511, max_size=1022).launch(share=True, quiet=False)
 #endregion
